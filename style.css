@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#navbar-sec{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar li {
+    padding: 0px 10px;
+}
+.navbar li a{
+    color: white !important;
+    font-weight: 600;
+    text-align: left;
+    float: right;
+}
+.navbar li a:hover{
+    padding-right: 10px;
+    transition: 0.5s ease-in-out;
+}
+.navbar-toggler-icon{
+    color:white !important;
+}
+
+.fa-bars{
+    color: white !important;
+    font-size: 30px;
+}
+
+/* --------- banner ---------------  */
+
+#banner{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 8%;
+    color: white !important;
+}
+.banner-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+#banner p{
+    padding: 5px;
+}
+.play-btn{
+    width: 45px;
+    margin: 10px;
+}
+#banner a{
+    color: white !important;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+}
+
+
+/* -------------service section here ------------  */
+
+#service{
+    padding: 80px 0px ;
+    text-align: center;
+}
+.col{
+    padding: 20px;
+}
+.service-img{
+    width: 100px;
+    margin: 20px 0px;
+}
+#service h4{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}
+.service-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.service-title::before{
+    content: "";
+    height: 2px;
+    width: 200px;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 0px auto;
+    display: block;
+    transform: translateY(46px);
+}
+
+#service .btn{
+    border-radius: 15px;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    border: none;
+    outline: none !important;
+}
+
+
+
+/* ------------ about section -------------  */
+#about-us{
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.row-about{
+    margin: 40px 0px;
+    padding: 20px;
+}
+.about-title{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 10px 0px;
+}
+
+.title-element li{
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/* ----------clients testimonials here ---------------  */
+
+#client-testimonials{
+    padding: 20px;
+    margin: 20px 0px;
+}
+#client-testimonials img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+#client-testimonials .row{
+    padding: 20px;
+}
+#client-testimonials h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+#client-testimonials p{
+    font-size: 13px;
+}
+#client-testimonials code{
+    color: black;
+    line-height: 8px;
+
+}
+
+.testimonial-left{
+    position: relative;
+    margin-top: 10px;
+}
+.testimonial-left::after{
+    position:absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 80%;
+    width: 4px;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    justify-content: center;
+}
+
+
+
+/* ------------ social media secion ----------------  */
+#social-media{
+    padding: 100px 0px;
+    background-color: #f8f9fa;
+}
+.media{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#social-media img{
+    width: 50px;
+    margin: 20px;
+}
+#social-media img:hover{
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out;
+    cursor:pointer;
+}
+
+
+
+/* -------------------footer section here ------------  */
+
+#footer{
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    color:white;
+
+}
+.wave-2{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+}
+.footer-box a{
+    color: white !important;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 5px 0px;
+    text-decoration: none;
+}
+.footer-box .form-control{
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+    margin-top: 20px;
+}
+.footer-box i{
+    padding: 5px 10px;
+}
+
+#footer hr{
+    background:white !important;
+    margin: 20px 0px;
+}
+
+.copy-right{
+    padding: 20px 0px;
+    text-align: center;
+}
